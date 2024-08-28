@@ -1,41 +1,14 @@
----
-jupyter:
-  kernelspec:
-    display_name: Python 3 (ipykernel)
-    language: python
-    name: python3
-  language_info:
-    codemirror_mode:
-      name: ipython
-      version: 3
-    file_extension: .py
-    mimetype: text/x-python
-    name: python
-    nbconvert_exporter: python
-    pygments_lexer: ipython3
-    version: 3.10.12
-  nbformat: 4
-  nbformat_minor: 5
----
-
-::: {#ddca4804-44c6-4664-9253-3670587973af .cell .markdown}
 # O dilema de Monty Hall
-:::
 
-::: {#3cc320bd-b534-4550-9968-447983a1eaa4 .cell .markdown}
 Ocasionalmente, volta à baila o dilema de *Monty Hall*, que consiste em
 um *game show*, onde o participante que adivinhar em qual das três
 portas se esconde o prêmio valioso, leva um carro zero quilômetro. Após
 o participante escolher uma opção, o apresentador abre uma das portas
 restantes, que se encontra vazia, e pergunta se o participante deseja
 manter ou modificar a escolha inicial.
-:::
 
-::: {#60fb0e95-69fc-419f-94af-18b19843c053 .cell .markdown}
 ### Probabilidade condicional
-:::
 
-::: {#e3a13220-26bc-4a0a-8ad5-577515683616 .cell .markdown}
 O carro pode estar escondido atrás de qualquer uma das três portas . A
 probabilidade inicial, denominada *\"a priori\"*, antes que seja
 fornecida alguma nova informação, é definida por:
@@ -67,13 +40,9 @@ A soma das probabilidades antes e depois da aplicação da Regra de Bayes
 Novas informações alteram a probabilidade *\"a priori\"*. O participante
 deve trocar a opção da porta 1 para a porta 3, presumindo que esta seja
 a sua escolha inicial e o apresentador tenha aberto a porta 2.
-:::
 
-::: {#aefa5c47-b042-48ff-bfe8-29f82f471d28 .cell .markdown}
 ### \"Should I stay or should I go?\"
-:::
 
-::: {#2dfb04bf-1d1f-45b1-ad6a-177b46a926ff .cell .markdown}
 Em termos práticos, o participante vive um dilema: manter a escolha
 inicial ou trocar à luz de novas informações? Mesmo que desconheça as
 regras de inferência bayesiana, pode utilizar a frequência natural.
@@ -88,13 +57,9 @@ trocarem de porta, levam o prêmio. Se o participante 3 trocar, perde.
 Em conclusão, a opção pela troca é favorável em 2 de 3 casos. A
 probabilidade de ganhar o prêmio caso troque de porta é igual a 2/3 ou
 equivalente a 67%.
-:::
 
-::: {#543f3dde-8205-4c15-aad0-d68aabd863df .cell .markdown}
 ### Simulação
-:::
 
-::: {#249878e2-7641-486c-a3c2-022b93078fbc .cell .code execution_count="3"}
 ``` python
 import random
 import matplotlib.pyplot as plt
@@ -171,7 +136,5 @@ simulation.run_simulation()
 simulation.plot_results()
 ```
 
-::: {.output .display_data}
-![](vertopal_8197e2617aa04a89b5c68b2738bdf3ce/31e36a0551b03263c212cae0ff91817b23e65df1.png)
-:::
-:::
+![](31e36a0551b03263c212cae0ff91817b23e65df1.png)
+
