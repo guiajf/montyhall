@@ -47,7 +47,7 @@ Em termos práticos, o participante vive um dilema: manter a escolha
 inicial ou trocar à luz de novas informações? Mesmo que desconheça as
 regras de inferência bayesiana, pode utilizar a frequência natural.
 
-Gigerenzer sugere pensar o problema com 3 participantes. Suponha que o
+O psicólogo alemão Gerd Gigerenzer sugere pensar o problema com 3 participantes. Suponha que o
 prêmio esteja na porta 2. O participante 1 escolhe a porta 3, então o
 apresentador abre a porta 1. O participante 2 escolhe a porta 1, então o
 apresentador abre a porta 3. O participante 3 escolhe a porta 2, então o
