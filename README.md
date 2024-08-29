@@ -140,7 +140,7 @@ simulation.plot_results()
 
 **Referências:**
 
-Gigerenzer, G. (2002). *Calculated risks: how to know when numbers deceive you* New York: Simon and Schuster.
+Gigerenzer, G. (2002). *Calculated risks: how to know when numbers deceive you*. New York: Simon and Schuster.
 
 Gigerenzer, G. (2014). *Risk savvy: How to make good decisions*. New York: Viking. 
 
