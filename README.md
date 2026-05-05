@@ -142,5 +142,7 @@ simulation.plot_results()
 
 Gigerenzer, G. (2002). *Calculated risks: how to know when numbers deceive you*. New York: Simon and Schuster.
 
-Gigerenzer, G. (2014). *Risk savvy: How to make good decisions*. New York: Viking. 
+Gigerenzer, G. (2014). *Risk savvy: How to make good decisions*. New York: Viking.
+
+Konchady, M. (2006). Text mining application programming. Charles River Media. ISBN 1-58450-460-9.
 
