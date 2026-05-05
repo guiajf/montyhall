@@ -20,22 +20,22 @@ participante, por exemplo, a porta 1 (p1), a probabilidade de que o
 apresentador abra a porta 2, denotada por p(a2), é igual a 0.5. Logo,
 aplicando a Regra de Bayes:
 
-*p(p1\|a2) = p(a2\|p1)*p(p1)/p(a2) = (1/2*1/3)/1/2 = 1/3.*
+*p(p1\|a2) = p(a2\|p1)*p(p1)/p(a2) = (1/2 * 1/3) : 1/2 = 1/3.*
 
 A probabilidade de que o apresentador escolha a porta 2, caso realmente
 o prêmio esteja contido nela, é igual a 0. Aplicando a Regra de Bayes:
 
-*p(p2\|a2) = p(a2\|p2)*p(p2)/p(a2)=(0*1/3)/1/2 = 0.*
+*p(p2\|a2) = p(a2\|p2)*p(p2)/p(a2)=(0 * 1/3) : 1/2 = 0.*
 
 A probabilidade do apresentador abrir a porta 2, caso o prêmio esteja na
 porta 3 é igual a 1. Aplicando a Regra de Bayes:
 
-*p(p3\|a2)=p(a2\|p3)/p(a2)=(1x1/3)/1/2=2/3.*
+*p(p3\|a2)=p(a2\|p3)/p(a2)=(1 * 1/3) : 1/2 = 2/3.*
 
 A soma das probabilidades antes e depois da aplicação da Regra de Bayes
 é a mesma:
 
-*1 = (1/3 + 1/3 +1/3) = (1/3 + 0 + 2/3)*
+*1 = (1/3 + 1/3 + 1/3) = (1/3 + 0 + 2/3)*
 
 Novas informações alteram a probabilidade *\"a priori\"*. O participante
 deve trocar a opção da porta 1 para a porta 3, presumindo que esta seja
